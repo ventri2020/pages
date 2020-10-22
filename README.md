@@ -1,4 +1,4 @@
-## HTML pages for our MRI project
+# HTML pages for our MRI project
 
 1. [Working with DICOM Color and B&W images](https://ventri2020.github.io/pages/5_nifti_info.html)
 1. [Preprocessing MR images for U-NET segmentation](https://ventri2020.github.io/pages/preprocessing-dicoms.html)
