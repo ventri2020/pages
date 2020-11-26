@@ -7,6 +7,12 @@
 1. [Tissue segmentation with U-Net 2D](https://ventri2020.github.io/pages/11_tissue_segmentation.html)
 
 
+## Data for U-Net
+
+1. [Contact Sheets](https://ventri2020.github.io/pages/20-contact_sheet.html), czyli
+po naszemu stykówki.
+
+
 ## ANTsRNet reference
 
 1. [encodeUnet, decodeUnet](https://ventri2020.github.io/pages/ANTsRNet_reference.html)
