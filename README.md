@@ -7,6 +7,14 @@
 1. [Tissue segmentation with U-Net 2D](https://ventri2020.github.io/pages/11_tissue_segmentation.html)
 
 
+## Results
+
+### UNet, resolution 192x96
+
+1. [Tissue segmentation](https://ventri2020.github.io/pages/192x96x1-tissue.html)
+1. SCAT segmentation – TODO
+
+
 ## Data for U-Net
 
 1. [Contact Sheets](https://ventri2020.github.io/pages/20-contact_sheet.html), czyli
