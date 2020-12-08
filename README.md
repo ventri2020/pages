@@ -13,6 +13,7 @@
 
 1. [Tissue segmentation](https://ventri2020.github.io/pages/192x96x1-tissue.html)
 1. [SCAT + VSAT segmentation, 120 images, 192x96 resolution](https://ventri2020.github.io/pages/192x96x1-fat-Unet-120i.html)
+1. [SCAT + VSAT segmentation, 120 images, 192x96 resolution](https://ventri2020.github.io/pages/192x96x1-fat-Unet-160i.html)
 
 
 ## Data for U-Net
