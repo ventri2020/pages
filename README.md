@@ -7,13 +7,19 @@
 1. [Tissue segmentation with U-Net 2D](https://ventri2020.github.io/pages/11_tissue_segmentation.html)
 
 
-## Results
+## Results for UNet NN
 
-### UNet, resolution 192x96
+
+### Image size 192x96
 
 1. [Tissue segmentation](https://ventri2020.github.io/pages/192x96x1-tissue.html)
-1. [SCAT + VSAT segmentation, 120 images, 192x96 resolution](https://ventri2020.github.io/pages/192x96x1-fat-Unet-120i.html)
-1. [SCAT + VSAT segmentation, 120 images, 192x96 resolution](https://ventri2020.github.io/pages/192x96x1-fat-Unet-160i.html)
+1. [SCAT + VSAT segmentation, 120 images, 192x96](https://ventri2020.github.io/pages/192x96x1-fat-Unet-120i.html)
+1. [SCAT + VSAT segmentation, 120 images, 192x96](https://ventri2020.github.io/pages/192x96x1-fat-Unet-160i.html)
+
+
+### Image size 384x192
+
+1. [SCAT + VSAT segmentation, 160 images, 384x192](https://ventri2020.github.io/pages/384x192-fat-151i.html)
 
 
 ## Data for U-Net
