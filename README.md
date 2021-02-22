@@ -7,6 +7,11 @@
 1. [Tissue segmentation with U-Net 2D](https://ventri2020.github.io/pages/11_tissue_segmentation.html)
 
 
+## Similarities and Dissimilarities -- Jaccard Index and Distance
+
+1. [Jaccard Index and Distance](https://ventri2020.github.io/pages/similarities_and_dissimilarities.html)
+
+
 ## Results for UNet NN
 
 
