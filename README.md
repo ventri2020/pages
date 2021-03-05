@@ -11,6 +11,7 @@
 
 1. [Jaccard Index and Distance](https://ventri2020.github.io/pages/similarities_and_dissimilarities.html)
 1. [Podobieństwa i niepodobieństwa (odległości)](https://ventri2020.github.io/pages/similarities_and_dissimilarities_v0.html)
+1. [Jaccard Distances Between Masks](https://ventri2020.github.io/pages/jaccard_distance_tables.html)
 
 
 ## Results for UNet NN
