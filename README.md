@@ -19,7 +19,9 @@
 1. [KM & UNet prediction](https://ventri2020.github.io/pages/jaccard_distance-an_ud.html)
 
 
-## Results for UNet NN
+## How to train UNet Neural Networks?
+
+1. [Training UNet](https://ventri2020.github.io/pages/unet_training.html)
 
 
 ### Image size 192x96
