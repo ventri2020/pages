@@ -7,6 +7,13 @@
 1. [Tissue segmentation with U-Net 2D](https://ventri2020.github.io/pages/11_tissue_segmentation.html)
 
 
+## Bland-Altman
+
+1. Reproduced from the article
+  [Understanding Bland Altman analysis](https://ventri2020.github.io/pages/bland_altman.html).<br>
+  Source: [Davide Giavarina](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4470095/).
+
+
 ## Similarities and Dissimilarities -- Jaccard Index and Distance
 
 1. [Jaccard Index and Distance](https://ventri2020.github.io/pages/similarities_and_dissimilarities.html)
