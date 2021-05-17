@@ -9,6 +9,7 @@
 
 ## Bland-Altman
 
+1. [Intra- and Interobserver Bland-Altman plots for SAT and VAT](https://ventri2020.github.io/pages/bland_altman_sat_and_vat.html).
 1. Reproduced from the article
   [Understanding Bland Altman analysis](https://ventri2020.github.io/pages/bland_altman.html).<br>
   Source: [Davide Giavarina](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4470095/).
