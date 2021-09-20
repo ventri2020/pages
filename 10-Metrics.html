@@ -172,10 +172,16 @@ pre code {
 
 
 <ol style="list-style-type: decimal">
-<li><a href="https://adv-r.hadley.nz/subsetting.html">R Subsetting</a> in Advanced R. See Section 4.5.1 Lookup tables (character subsetting).</li>
 <li><a href="https://en.wikipedia.org/wiki/Symmetric_difference">Symmetric difference</a>.</li>
 <li>Alex P. Zijdenbos, Benoit M. Dawant, Richard A. Margolin, and Andrew C. Palmer. Morphometric Analysis of White Matter Lesions in MR Images: Method and Validation. IEEE Transactions on Medical Imaging, Vol. 13, No. 4, December 1994.</li>
+<li>Jeroen Bertels, Tom Eelbode, Maxim Berman, Dirk Vandermeulen, Frederik Maes, Raf Bisschops, and Matthew B. Blaschko. Optimizing the Dice Score and Jaccard Index for Medical Image Segmentation: Theory &amp; Practice. <a href="https://arxiv.org/abs/1911.01685">arXiv:1911.01685</a> [cs.CV].</li>
 </ol>
+<div id="r" class="section level3">
+<h3>R</h3>
+<ol style="list-style-type: decimal">
+<li><a href="https://adv-r.hadley.nz/subsetting.html">R Subsetting</a> in Advanced R. See Section 4.5.1 Lookup tables (character subsetting).</li>
+</ol>
+</div>
 <div id="notation-remarks" class="section level2">
 <h2>Notation &amp; Remarks</h2>
 <ol style="list-style-type: decimal">
@@ -200,12 +206,11 @@ pre code {
 </div>
 <div id="metrics" class="section level2">
 <h2>Metrics</h2>
-<p><span class="math display">\[
-\begin{align}
+<p>$$ <span class="math display">\[\begin{align}
 {\rm D}(A,B)&amp; = 2·\frac{|A∩B|}{|A| + |B|} ∈ [0, 1]\\
+
 Κ(A,B)&amp;       = \frac{p_o - p_c}{1 - p_c} ∈ (-∞, 1]
-\end{align}
-\]</span></p>
+\end{align}\]</span> $$</p>
 <ol style="list-style-type: decimal">
 <li><span class="math inline">\({\rm D}(A,B)\)</span> – Dice score a.k.a. Sørensen–Dice coefficient</li>
 <li><span class="math inline">\(Κ(A,B)\)</span> – Kappa coefficient, where <span class="math display">\[
@@ -225,13 +230,13 @@ n&amp;= |Ω|
 <p class="caption">Alex P. Zijdenbos et al. p. 723.</p>
 </div>
 </div>
-<div id="distances-dimensionless" class="section level2">
-<h2>Distances (dimensionless)</h2>
+<div id="jaccard-distance-dimensionless" class="section level2">
+<h2>Jaccard distance (dimensionless)</h2>
 <p><span class="math display">\[
 \begin{align}
-{\rm J}(A,B)&amp;= \frac{|A∩B|}{|A∪B|} = \frac{|A∩B|}{|A| + |B| - |A∩B|}\\  
+{\rm J}(A,B)&amp;= \frac{|A∩B|}{|A∪B|} = \frac{|A∩B|}{|A| + |B| - |A∩B|} ∈ [0, 1]\\  
 {\rm J}_d(A,B)&amp;= 1 - {\rm J}(A,B) = 
-  \frac{|A∆B|}{|A∪B|} = \frac{|A| + |B| - 2|A∩B|}{|A| + |B| - |A∩B|}
+  \frac{|A∆B|}{|A∪B|} = \frac{|A| + |B| - 2|A∩B|}{|A| + |B| - |A∩B|} ∈ [0, 1]
 \end{align}
 \]</span></p>
 <ol style="list-style-type: decimal">
@@ -243,8 +248,13 @@ n&amp;= |Ω|
 <h2>Properties, Theorems</h2>
 <p>Symmetric difference on measure spaces. <span class="math display">\[
 |μ(A) - μ(B)| \leq μ(A∆B)
-\]</span> Under the assumption <span class="math inline">\(d \gg a\)</span>, <span class="math inline">\(d \gg b\)</span>, <span class="math inline">\(d \gg c\)</span> <span class="math display">\[
+\]</span></p>
+<p>Under the assumption <span class="math inline">\(d \gg a\)</span>, <span class="math inline">\(d \gg b\)</span>, <span class="math inline">\(d \gg c\)</span> <span class="math display">\[
 \lim_{d\to\infty} Κ(A,B) = \frac{2a}{2a + b + c} = {\rm D}(A,B)
+\]</span> Relationships between the Jaccard index and the Dice score. <span class="math display">\[
+{\rm J}(A,B) = \frac{{\rm D}(A,B)}{2 - {\rm D}(A,B)}
+\quad\hbox{and}\quad
+{\rm D}(A,B) = \frac{2{\rm J}(A,B)}{1 + {\rm J}(A,B)}
 \]</span></p>
 </div>
 
