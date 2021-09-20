@@ -1,3 +1,8 @@
+## Manual Segmentation
+
+1. [Metrics and Losses for MR Images](https://ventri2020.github.io/pages/10-Metrics.html)
+
+
 ## HTML pages for our MRI project
 
 1. [Working with DICOM Color and B&W images](https://ventri2020.github.io/pages/5_nifti_info.html)
@@ -12,7 +17,7 @@
 1. [Intra- and Interobserver Bland-Altman plots for SAT and VAT](https://ventri2020.github.io/pages/bland_altman_sat_and_vat.html).
 1. Reproduced from the article
   [Understanding Bland Altman analysis](https://ventri2020.github.io/pages/bland_altman.html).<br>
-  Source: [Davide Giavarina](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4470095/).
+  Source: [Davide Giavarina](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4470095/)
 
 
 ## Similarities and Dissimilarities -- Jaccard Index and Distance
