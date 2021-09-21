@@ -1,6 +1,7 @@
 ## Manual Segmentation
 
 1. [Metrics and Losses for MR Images](https://ventri2020.github.io/pages/10-Metrics.html)
+1. [SAT and VAT tables](https://ventri2020.github.io/pages/20-SAT_VAT_Tables.html)
 
 
 ## HTML pages for our MRI project
