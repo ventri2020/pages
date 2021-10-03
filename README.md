@@ -1,9 +1,10 @@
 ## Manual Segmentation
 
 1. [Metrics and Losses for MR Images](https://ventri2020.github.io/pages/10-Metrics.html)
-1. [PIXEL: SAT and VAT tables](https://ventri2020.github.io/pages/20-SAT_VAT_Tables.html)
-1. [DICOM: SAT and VAT with thresholds](https://ventri2020.github.io/pages/21-SAT_VAT_VOXEL_THRESHOLD_Tables.html)
-1. TODO: DICOM – SAT and VAT without thresholds
+1. PIXEL: [SAT and VAT tables](https://ventri2020.github.io/pages/20-SAT_VAT_Tables.html)
+1. DICOM: [SAT and VAT with thresholds](https://ventri2020.github.io/pages/21-SAT_VAT_VOXEL_THRESHOLD_Tables.html)
+1. DICOM: [SAT and VAT witout thresholds](https://ventri2020.github.io/pages/22-SAT_VAT_VOXEL_Tables.html)
+
 
 ## HTML pages for our MRI project
 
