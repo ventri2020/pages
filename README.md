@@ -5,6 +5,10 @@
 1. DICOM: [SAT and VAT with thresholds](https://ventri2020.github.io/pages/21-SAT_VAT_VOXEL_THRESHOLD_Tables.html)
 1. DICOM: [SAT and VAT without thresholds](https://ventri2020.github.io/pages/22-SAT_VAT_VOXEL_Tables.html)
 
+----
+
+1. [Segmentation 1-voxel boundaries](https://ventri2020.github.io/pages/80-segmentaion_boundary.html)
+
 
 ## HTML pages for our MRI project
 
