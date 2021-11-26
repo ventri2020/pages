@@ -7,7 +7,7 @@
 
 ----
 
-1. [Segmentation 1-voxel boundaries](https://ventri2020.github.io/pages/80-segmentaion_boundary.html)
+1. [Segmentation 1-voxel boundaries](https://ventri2020.github.io/pages/80-boundary1.html)
 
 
 ## HTML pages for our MRI project
