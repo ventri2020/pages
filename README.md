@@ -66,6 +66,8 @@ po naszemu stykówki.
 
 1. [encodeUnet, decodeUnet](https://ventri2020.github.io/pages/ANTsRNet_reference.html)
 
-<!--
+
+## Misc
+
 1. [Voxelwise segmentation with U-Net 2-D](https://ventri2020.github.io/pages/voxelwise_segmentation_U-Net_2-D.html)
--->
+
